@@ -74,6 +74,26 @@ console.log(Number.isInteger(2017));
 // Built-in objects, including Math, are collections of methods and properties that JavaScript provides.
 
 
+// VARIABLES
+var myName = "Unicorn";
+console.log(myName);
+// Capitalizing is called camel casing
+// Variable names cannot start with numbers.
+// Variable names are case sensitive, so myName and myname would be different variables. It is bad practice to create two variables that have the same name using different cases.
+// Variable names cannot be the same as keywords. For a comprehensive list of keywords check out MDN’s keyword documentation.
+
+// As mentioned in the previous exercise, the let keyword was introduced in ES6. The let keyword signals that the variable can be reassigned a different value.
+let myNameIs = "Tereza";
+// Then changing the value, e.g.
+myNameIs = "Slim Shady";
+
+// Constant variable - opposite to let, indicates that we cannot change it, it returns an error
+const entree = 'Enchiladas';
+console.log(entree);
+
+entree = 'Tacoss';
+console.log(entree); // Returns error
+
 
 
 
