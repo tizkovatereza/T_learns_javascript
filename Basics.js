@@ -95,6 +95,35 @@ entree = 'Tacoss';
 console.log(entree); // Returns error
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// WEATHER PREDICTION WEBSITE PROGRAM
+
+
+// Set variables - kelvin is constant variable
+const kelvin = 0;
+console.log(kelvin);
+
+// Set constant variable for tranforming Kelvin to Celsius
+const difference = 273;
+console.log(difference);
+
+let celsius = kelvin - difference;
+console.log(celsius);
+
+
+let fahrenheit = celsius * (9 / 5) + 32;
+console.log(fahrenheit);
+
+// Rounding fown the Fahrenheit temperature
+fahrenheit = Math.floor(fahrenheit);
+console.log(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+
+// Multiple each value with that constant
+
+
 
 
 
