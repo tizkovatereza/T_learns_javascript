@@ -124,6 +124,47 @@ console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 // Multiple each value with that constant
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// DOG YEARS
+
+// Defining variables
+let myAge = 26;
+let earlyYears = 2;
+
+
+console.log(myAge);
+console.log(earlyYears);
+
+
+// Use the multiplication assignment operator to multiply the value saved to earlyYears by 10.5 and reassign it to earlyYears.
+earlyYears *= 10.5;
+console.log(earlyYears);
+
+let laterYears = myAge - 2;
+console.log(laterYears);
+
+
+laterYears *= 4;
+console.log(laterYears);
+
+// Add earlyYears and laterYears together, and store that in a variable named myAgeInDogYears.
+// Write a comment that explains this line of code.
+
+let myAgeInDogYears = earlyYears + laterYears;
+console.log(myAgeInDogYears);
+
+let myName = 'Tereza'.toLowerCase();
+
+
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
+
+
+
+
+
+
+
+
 
 
 
