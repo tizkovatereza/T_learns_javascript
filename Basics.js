@@ -227,7 +227,18 @@ console.log(defaultName); // Prints: Stranger
 
 // Because || or statements check the left-hand condition first, the variable defaultName will be assigned the actual value of username if it is truthy, and it will be assigned the value of 'Stranger' if username is falsy. This concept is also referred to as short-circuit evaluation.
 
+//
+let isLocked = false;
 
+isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
+
+let isCorrect = true;
+
+isCorrect ? console.log('Correct!') : console.log('Incorrect!');
+
+let favoritePhrase = 'Love That!';
+
+favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
 
 
 
