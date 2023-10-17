@@ -24,6 +24,7 @@ console.log(`Hello ${userName}, ${userQuestion}`);
 
 
 let randomNumber = Math.floor(Math.random() * 8);
+console.log(randomNumber);
 
 // Math.random() returns a value between 0 (inclusive) and 1 (exclusive).
 
@@ -32,3 +33,48 @@ let randomNumber = Math.floor(Math.random() * 8);
 // Finally, to ensure we only have whole numbers from 0 to 7 we can round down using Math.floor().
 
 let eightBall = "";
+
+switch (randomNumber) {
+  case 0:
+    // Statements executed when expression = value1
+    break;
+  case 1:
+    console.log('It is certain');
+    break;
+  case 2:
+    console.log('It is certain');
+    break;
+   case 3:
+    console.log('It is decidedly so');
+    break;
+   case 4:
+    console.log('Reply hazy try again');
+    break;
+   case 5:
+    console.log('Cannot predict now');
+    break;
+   case 6:
+    console.log('Do not count on it');
+    break;
+   case 7:
+    console.log('My sources say no');
+    break;
+   case 8:
+    console.log('Outlook not so good');
+    break;
+   case 2:
+    console.log('Signs point to yes');
+    break;
+   case 2:
+    console.log('It is certain');
+    break;
+  default:
+  console.log('I am tired, whatever');
+}
+
+
+
+
+
+
+
