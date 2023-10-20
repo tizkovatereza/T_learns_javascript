@@ -262,6 +262,25 @@ switch(athleteFinalPosition){
     break;
 }
 
+////////////////////////////////////////////////////////////////////////////////////////
+// FUNCTIONS
+
+// DEFAULT PARAMETER
+function makeShoppingList(item1, item2, item3){
+  console.log(`Remember to buy ${item1}`);
+  console.log(`Remember to buy ${item2}`);
+  console.log(`Remember to buy ${item3}`);
+}
+
+
+function greeting (name = 'stranger') {
+  console.log(`Hello, ${name}!`)
+}
+
+greeting('Nick') // Output: Hello, Nick!
+greeting() // Output: Hello, stranger!
+
+
 
 
 
