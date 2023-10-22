@@ -314,6 +314,46 @@ console.log(numOfMonitors);
 
 // If we wanted to define a function that converts the temperature from Celsius to Fahrenheit, we could write two functions like:
 
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+
+
+function multiplyByNineFifths(number) {
+  return number * (9/5);
+};
+
+function getFahrenheit(celsius) {
+  return multiplyByNineFifths(celsius) + 32;
+};
+
+getFahrenheit(15); // Returns 59
+
+///////////////////////////////////
+
+function monitorCount() {
+};
+
+function costOfMonitors(rows,columns) {
+  return monitorCount(rows,columns) * 200;
+};
+
+
+const totalCost = costOfMonitors(5,4);
+
+console.log(totalCost);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
