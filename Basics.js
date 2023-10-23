@@ -384,6 +384,10 @@ const plantNeedsWater = (day) => {
 };
 
 
+// Concise way:
+const plantNeedsWater = day => 
+  day === 'Wednesday' ? true : false;
+;
 
 
 
