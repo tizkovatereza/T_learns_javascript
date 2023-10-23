@@ -329,7 +329,7 @@ function getFahrenheit(celsius) {
 
 getFahrenheit(15); // Returns 59
 
-///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
 
 function monitorCount() {
 };
@@ -343,8 +343,31 @@ const totalCost = costOfMonitors(5,4);
 
 console.log(totalCost);
 
+////////////////////////////////////////////////////////////////////////////////////////
+// Function expressions
+
+// Another way to define a function is to use a function expression.
+// To define a function inside an expression, we can use the function keyword.
+
+// To declare a function expression:
+
+// Declare a variable to make the variable’s name be the name, or identifier, of your function.
+// Since the release of ES6, it is common practice to use const as the keyword to declare the variable.
+
+// Assign as that variable’s value an anonymous function created by using the function keyword followed by a set of parentheses with possible parameters.
+// Then a set of curly braces that contain the function body.
+
+const plantNeedsWater = function(day){
+  if (day === "Wednesday"){
+        return true;
+  } else {
+    return false;
+  }
+};
 
 
+plantNeedsWater("Tuesday")
+console.log(plantNeedsWater("Tuesday"));
 
 
 
