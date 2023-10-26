@@ -389,6 +389,25 @@ const plantNeedsWater = day =>
   day === 'Wednesday' ? true : false;
 ;
 
+////////////////////////////////////////////////////////////////////////
+// Scoping
+
+// Here’s another example of how block scope works, as defined within an if block:
+
+const logSkyColor = () => {
+  const dusk = true;
+  let color = 'blue'; 
+  if (dusk) {
+    let color = 'pink';
+    console.log(color); // Prints "pink"
+  }
+  console.log(color); // Prints "blue"
+};
+
+console.log(color); // throws a ReferenceError
+
+
+
 
 
 
