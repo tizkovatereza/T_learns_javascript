@@ -1,0 +1,15 @@
+// Switch
+
+switch (expression) {
+  case value1:
+    // Statements executed when expression = value1
+    break;
+  case value2:
+    // Statements executed when expression = value2
+    break;
+  case value3:
+    // Statements executed when expression = value3
+    break;
+  default:
+  // Statements executed when expression not equal to value1, value2 or value3
+}
