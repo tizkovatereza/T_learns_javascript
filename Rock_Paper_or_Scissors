@@ -35,5 +35,18 @@ console.log(getComputerChoice());
 console.log(getComputerChoice());
 console.log(getComputerChoice());
 
+function determineWinner(userChoice, computerChoice) {
+if (userChoice === computerChoice) {
+  return 'The game is a tie!';
+}
+if (userChoice === 'rock') {
+  if (computerChoice === 'paper') {
+    return 'The computer won!';
+  } else {
+    return 'You won!';
+  }
+}
+
+};
 
 
