@@ -191,12 +191,43 @@ root.render(myList);
 // In React, for every DOM object, there is a corresponding “virtual DOM object.”
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// SELF-CLOSING TAGS
 
+// Some HTML elements such as <img> and <input> use only one tag. 
+// In HTML, it is optional to include a forward slash immediately before the final angle bracket. But not in JSX.
 
+// Fine in JSX:
+<br />
 
+// NOT FINE AT ALL in JSX:
+<br>
 
+// Example:
+  const profile = (
+  <div>
+    <h1>John Smith</h1>
+    <img src="images/john.png"/>
+    <article>
+      My name is John Smith.
+      <br/>
+      I am a software developer.
+      <br/>
+      I specialize in creating React applications.
+    </article>
+  </div>
+);
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// JAVASCRIPT IN JSX IN JAVASCRIPT
 
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+// Write code here:
+root.render(<h1>2 + 3</h1>);
 
 
 
