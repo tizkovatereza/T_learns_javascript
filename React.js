@@ -91,6 +91,7 @@ const p2 = <p id='small'> bar </p>;
   </a>
 )
 
+const myDiv = (<div> <h1> Hello world </h1> </div>);
 
 
 
