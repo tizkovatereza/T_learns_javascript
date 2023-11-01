@@ -147,7 +147,14 @@ const container = document.getElementById('app');
 const root = createRoot(container);
 root.render(<h1>Hello world</h1>);
 
+// Explaining the JSX rendering:
+// React relies on two things to render: what content to render and where to place the content.
 
+// This code:
+const container = document.getElementById('app')
+// Uses the document object which represents our web page.
+// Uses the getElementById() method of document to get the Element object representing the HTML element with the passed in id (app).
+// Stores the element in container.
 
 
 
