@@ -128,6 +128,25 @@ const blog = (
   </div>
 );
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// RENDERING JSX
+
+// To render a JSX expression means to make it appear on screen.
+// Code for rendering:
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<h1>Hello world</h1>);
+
+// Together with code:
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+// Copy code here:
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<h1>Hello world</h1>);
+
 
 
 
