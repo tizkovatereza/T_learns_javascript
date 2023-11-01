@@ -20,3 +20,28 @@ const h1 = <h1> Hello world </h1>;
 // If a JavaScript file contains JSX code, then that file will have to be compiled.
 // This means that before the file reaches a web browser, a JSX compiler will translate any JSX into regular JavaScript.
 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// JSX ELEMENTS
+
+// A basic unit of JSX is called a JSX element.
+// Examples:
+<h1> Hello world</h1>
+<p> Hello world </p>
+
+// JSX elements are treated as JavaScript expressions.
+// They can go anywhere that JavaScript expressions can go.
+// This means that a JSX element can be saved in a variable, passed to a function, stored in an object or array… 
+
+// Examples:
+const navBar = <nav> I am a nav bar </nav>;
+
+const myTeam = {
+  center: <li>Benzo Walli</li>,
+  powerForward: <li>Rasha Loa</li>,
+  smallForward: <li>Tayshaun Dasmoto</li>,
+  shootingGuard: <li>Colmar Cumberbatch</li>,
+  pointGuard: <li>Femi Billon</li>
+};
+
+const myArticle = <article> </article>;
