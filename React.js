@@ -156,6 +156,40 @@ const container = document.getElementById('app')
 // Uses the getElementById() method of document to get the Element object representing the HTML element with the passed in id (app).
 // Stores the element in container.
 
+const root = createRoot(container)
+// We use createRoot() from the react-dom/client library, which creates a React root from container and stores it in root.
+// root can be used to render a JSX expression.
+// This is the “where to place the content” part of React rendering.
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// PASSING A VARIABLE TO render()
+
+
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+// Write code here:
+const myList = (
+  <ul>
+  <li> Heyy </li>
+  <li> What's up'</li>
+  <li> It's me'</li>
+  </ul>
+);
+
+root.render(myList);
+
+
+
+
+
+
+
+
+
 
 
 
