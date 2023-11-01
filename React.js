@@ -186,6 +186,10 @@ root.render(myList);
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // THE VIRTUAL DOM
 
+// Solves the slow DOM 
+// Prevents wasteful DOM manipulation
+// In React, for every DOM object, there is a corresponding “virtual DOM object.”
+
 
 
 
