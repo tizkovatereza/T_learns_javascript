@@ -93,6 +93,26 @@ const p2 = <p id='small'> bar </p>;
 
 const myDiv = (<div> <h1> Hello world </h1> </div>);
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// JSX OUTER ELEMENTS
+
+// There’s a rule that we haven’t mentioned: a JSX expression must have exactly one outermost element.
+
+// This code will work:
+
+const paragraphs = (
+  <div id="i-am-the-outermost-element">
+    <p>I am a paragraph.</p>
+    <p>I, too, am a paragraph.</p>
+  </div>
+);
+
+// This code will not work:
+
+const paragraphs = (
+  <p>I am a paragraph.</p> 
+  <p>I, too, am a paragraph.</p>
+);
 
 
 
