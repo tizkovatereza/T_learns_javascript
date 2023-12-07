@@ -1,3 +1,0 @@
-mv Basic_syntax_in_JavaScript basic_syntax_in_javascript
-mv Rock_Paper_or_Scissors rock_paper_or_scissors
-mv Sleep_Debt_Calculator sleep_debt_calculator
