@@ -1,0 +1,1 @@
+mv Basic_syntax_in_JavaScript basic_syntax_in_javascript
