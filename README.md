@@ -1,13 +1,14 @@
-.git
-Basic_syntax_in_JavaScript
-Basics.js
-Magic_Eight_Ball.js
-README.md
-React.js
-Rock_Paper_or_Scissors
-Sleep_Debt_Calculator
-fibonacci.js
-rename_basic_syntax.sh
-rename_rock_paper_scissors.sh
-rename_script.sh
-rename_sleep_debt.sh
+# T Learns JavaScript
+
+This repository contains sample code and projects as a part of Tereza's journey in learning JavaScript. It includes various exercises and small applications developed while mastering the basics and advanced concepts of JavaScript.
+
+## Contents
+
+- Basic Syntax
+- Control Structures
+- Functions
+- Objects and Arrays
+- Asynchronous JavaScript
+- Mini Projects
+
+Happy coding!
