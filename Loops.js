@@ -9,4 +9,6 @@ function pickNewCard() {
 while (currentCard !== 'spade') {
   // Logic to pick a new card
   currentCard = pickNewCard();
+  // Log the picked card
+  console.log(`Picked card: ${currentCard}`);
 }
