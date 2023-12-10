@@ -12,3 +12,6 @@ while (currentCard !== 'spade') {
   // Log the picked card
   console.log(`Picked card: ${currentCard}`);
 }
+
+// Add the new code as requested
+const cards = ['diamond', 'spade', 'heart', 'club'];
